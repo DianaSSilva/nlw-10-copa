@@ -194,3 +194,7 @@ header {
   visibility: visible;
   opacity: 1;
 }
+
+.tooltipicon {
+  width: 50px;
+}
