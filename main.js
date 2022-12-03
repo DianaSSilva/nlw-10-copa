@@ -28,13 +28,6 @@ function createGame(player1, hour, player2) {
   
   document.querySelector("#cards").innerHTML = 
 
-      createCard("02/12", "Sexta-feira, Primeira fase.",
-      createGame("Korea", "12:00","Portugal") +
-      createGame("Ghana", "12:00","Uruguay") +
-      createGame("Brazil", "16:00", "Cameroon")+
-      createGame("Serbia", "16:00", "Switzerland")
-      )+
-
       createCard(
         "03/12", "Sábado",
       createGame("Netherlands", "12:00", "USA") +
@@ -50,11 +43,11 @@ function createGame(player1, hour, player2) {
       createCard (
         "05/12", "Segunda- feira",
         createGame("Japan", "12:00", "Croatia") +
-        createGame("", "16:00", "")
+        createGame("Brazil", "16:00", "Korea")
       )+
       createCard(
         "06/12", "Terça-feira",
         createGame("Morocco", "12:00", "Spain")+
-        createGame("", "16:00", "")
+        createGame("Portugal", "16:00", "Switzerland")
       )
       
