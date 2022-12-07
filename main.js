@@ -51,12 +51,12 @@ function createGame(player1, hour, player2) {
         createGame("Portugal", "16:00", "Switzerland")
       ) +
       createCard(
-        "09/12", "Sexta, Quartas de Final",
+        "09/12", "Sexta. Quartas de Final",
         createGame("Croatia", "12:00", "Brazil")+
         createGame("Netherlands", "16:00", "Argentina")
       )+
       createCard(
-        "10/12", "Sábado, Quartas de Final",
+        "10/12", "Sábado. Quartas de Final",
         createGame("Morocco", "12:00", "Portugal")+
         createGame("England", "16:00", "France")
       )
